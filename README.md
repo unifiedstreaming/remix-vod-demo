@@ -58,7 +58,7 @@ docker run \
   -v $(pwd)/content:/data \
   unifiedstreaming/packager:1.7.32 \
   unified_remix \
-    --license-key=$USP_LICENSE_KEY 
+    --license-key=$USP_LICENSE_KEY \
     -o /data/example.mp4 \
     /data/example.smil
 ```
