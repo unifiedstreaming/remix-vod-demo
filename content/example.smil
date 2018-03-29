@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smil
+  xmlns:dash="urn:mpeg:dash:event:2012"
+  xmlns="http://www.w3.org/2001/SMIL20/Language">
+  <head>
+  </head>
+  <body>
+    <seq>
+      <par>
+        <video src="remix03_600k.ismv"/>
+        <video src="remix03_1200k.ismv"/>
+        <video src="remix03_2000k.ismv"/>
+        <video src="remix03_3000k.ismv"/>
+        <video src="remix03_4000k.ismv"/>
+        <video src="remix03_eng.isma"/>
+      </par>
+      <par>
+        <video src="big-buck-bunny_600k.ismv"/>
+        <video src="big-buck-bunny_1200k.ismv"/>
+        <video src="big-buck-bunny_2000k.ismv"/>
+        <video src="big-buck-bunny_3000k.ismv"/>
+        <video src="big-buck-bunny_4000k.ismv"/>
+        <video src="big-buck-bunny_eng.isma"/>
+      </par>
+    </seq>
+  </body>
+</smil>
