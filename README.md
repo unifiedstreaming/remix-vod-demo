@@ -13,7 +13,7 @@ For more use cases see [Remix Demo](http://demo.unified-remix.com/).
 ## Example Content
 
 This repository includes an example SMIL playlist which concatenates a Unified
-Remix logo with the first 30 seconds of Big Buck Bunny.
+Remix logo with the first 60 seconds of Big Buck Bunny.
 
 The SMIL and media files are included in the content directory.
 
