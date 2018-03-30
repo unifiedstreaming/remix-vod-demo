@@ -48,7 +48,7 @@ docker run \
 
 ### Prepare content
 
-Process Remix playlist:
+Process Remix playlist (replacing <your_license_key\> with your license key string):
 
 ```bash
 #!/bin/sh
@@ -63,7 +63,7 @@ docker run \
     /data/example.smil
 ```
 
-Package ISM (to add DRM options etc.)
+Package ISM (replacing <your_license_key\> with your license key string, and <packager_options\> with any additional options you require, e.g. DRM):
 
 ```bash
 #!/bin/sh
