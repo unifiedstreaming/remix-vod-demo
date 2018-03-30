@@ -68,12 +68,13 @@ Package ISM (to add DRM options etc.)
 ```bash
 #!/bin/sh
 export USP_LICENSE_KEY=<your_license_key>
+export PACKAGER_OPTIONS=<packager_options>
 docker run \
   -e USP_LICENSE_KEY \
   -v $(pwd)/content:/data \
   unifiedstreaming/packager:1.7.32 \
     -o /data/example.ism \
-    $DRM_OPTIONS \
+    $PACKAGER_OPTIONS \
     /data/example.mp4
 ```
 
