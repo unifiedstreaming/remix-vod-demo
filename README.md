@@ -43,7 +43,7 @@ docker run \
   -v $(pwd)/content:/var/www/unified-origin \
   -p 80:80 \
   -d \
-  unifiedstreaming/origin:1.7.32
+  unifiedstreaming/origin:1.9.5
 ```
 
 ### Prepare content
@@ -56,7 +56,7 @@ export USP_LICENSE_KEY=<your_license_key>
 docker run \
   -e USP_LICENSE_KEY \
   -v $(pwd)/content:/data \
-  unifiedstreaming/packager:1.7.32 \
+  unifiedstreaming/packager:1.9.5 \
   unified_remix \
     --license-key=$USP_LICENSE_KEY \
     -o /data/example.mp4 \
@@ -72,7 +72,7 @@ export PACKAGER_OPTIONS=<packager_options>
 docker run \
   -e USP_LICENSE_KEY \
   -v $(pwd)/content:/data \
-  unifiedstreaming/packager:1.7.32 \
+  unifiedstreaming/packager:1.9.5 \
     -o /data/example.ism \
     $PACKAGER_OPTIONS \
     /data/example.mp4
